@@ -27,7 +27,6 @@
     }
     body {
       background-color: black;
-      @media screen and (max-width: 768px)
     }
     .cta {
     position: fixed;
@@ -37,26 +36,9 @@
     align-self: center;
     align-items: center;
     justify-content: center;
-    width: 88%;
+    width: 100%;
     max-width: 605px;
     height: 48px;
-    font-weight: 700;
-    transition: 0.3s;
-    animation: 0.8s ease fadeIn;
-    font-family: inter, sans-serif;
-    }
-    .cta2 {
-    position: fixed;
-    bottom: 50%;
-    margin: 0 auto;
-    display: flex;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    width: 88%;
-    max-width: 605px;
-    height: 48px;
-    font-weight: 700;
     transition: 0.3s;
     animation: 0.8s ease fadeIn;
     font-family: inter, sans-serif;
@@ -79,28 +61,26 @@
     /* animation: 0.8s ease fadeIn; */
     /* font-family: inter, sans-serif; */
     }
-    div:hover {
-      background-color: gold;
+    .hover:hover {
+      background-color: rgba( 255, 255, 255, 0.1 );
     }
 
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-  	     <a class="cta" style="z-index:9999" href="https://aischool.likelion.net/">
-           <img src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/ai.svg">
+<div class="container">
+  <div class="row">
+      <div class="col-lg-6 col-md-12">
+          <a class="cta" style="z-index:2" href="https://aischool.likelion.net/">
+            <img class="hover" src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/ai.svg">
+          </a>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <a class="cta" style="z-index:2" href="https://gwangju-ict.likelion.net/">
+          <img class="hover" src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/ict.svg">
         </a>
       </div>
-    <div class="col">
-      <a class="cta2" style="z-index:9999" href="https://gwangju-ict.likelion.net/">
-        <img src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/ict.svg">
-     </a>
     </div>
-    </div>
-  </div>
-  <a class="cta3" style="z-index:9999" href="#">
-    <img src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/logo.png">
-  </a>
+</div>
+  <img class="cta3" src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/logo.png">
 </body>
