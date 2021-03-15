@@ -6,10 +6,8 @@
   <meta property="og:image" content="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/ai.svg">
   <meta property="og:site_name" content="광주 ICT이노베이션스퀘어">
   <meta property="og:description" content="광주 AI인재를 육성하는 ICT이노베이션스퀘어">
-
   <link rel="shortcut icon" href="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/favicon.ico">
   <link rel="icon" href="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/favicon.ico">
-
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -23,26 +21,24 @@
         opacity: 0;
         transform: translate(0, 30px);
       }
-
       to {
         opacity: 1;
         transform: translate(0, 0);
       }
     }
-
     body {
       background-color: black;
       height: 100%;
     }
-
-    .sub-row {
+    .row {
       display: flex;
       align-self: center;
       align-items: center;
       justify-content: center;
+      margin-bottom: 50px;
+      width: 100%;
       height: 100%;
     }
-
     .bottom-logo {
       position: fixed;
       bottom: 16px;
@@ -54,46 +50,42 @@
       align-items: center;
       justify-content: center;
     }
-
     .cta {
       margin: 0 auto;
       display: flex;
       align-self: center;
       align-items: center;
       justify-content: center;
-      width: 100%;
-      max-width: 605px;
-      height: 48px;
       transition: 0.3s;
       animation: 0.8s ease fadeIn;
       font-family: inter, sans-serif;
+      width: 100%;
+      max-width: 492px;
     }
-
     .hover:hover {
       background-color: rgba(255, 255, 255, 0.1);
     }
   </style>
 </head>
-
 <body>
-  <div class="container justify-content-center align-items-center">
-
-    <div class="row sub-row">
-      <div class="col-lg-6 col-md-12">
-        <a class="cta" style="z-index:2" href="https://aischool.likelion.net/">
-          <img class="hover" src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/ai.svg">
-        </a>
+  <section>
+    <div class="container justify-content-center align-items-center">
+      <div class="row">
+        <div class="col-lg-0 col-md-0"></div>
+        <div class="col-lg-6 col-md-12">
+          <a style="z-index:2" href="https://aischool.likelion.net/">
+            <img class="cta hover" src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/ai.svg">
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <a style="z-index:2" href="https://gwangju-ict.likelion.net/">
+            <img class="cta hover" src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/ict.svg">
+          </a>
+        </div>
+        <div class="col-lg-0 col-md-0"></div>
       </div>
-      <div class="col-lg-6 col-md-12">
-        <a class="cta" style="z-index:2" href="https://gwangju-ict.likelion.net/">
-          <img class="hover" src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/ict.svg">
-        </a>
-      </div>
-    </div>
-
-  </div>
-
-  <img class="bottom-logo" src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/logo.png">
-
-
+  </section>
+  <section>
+    <img class="bottom-logo" src="https://raw.githubusercontent.com/Vicals/vicals.github.io/master/img/logo.png">
+  </section>
 </body>
